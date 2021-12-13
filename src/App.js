@@ -1,12 +1,12 @@
 import './assets/css/App.css';
 import Header from "./layout/Header";
-import Body from "./layout/Body";
+import Main from "./layout/Main";
 import Footer from "./layout/Footer";
 function App() {
   return (
     <>
       <Header/>
-      <Body/>
+      <Main/>
       <Footer/> 
     </>
   );

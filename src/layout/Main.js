@@ -10,7 +10,7 @@ export default function Body (){
                                     localStorage.getItem('best-score'):0
                                     );
     const [IDs,setIDs] = useState([]);
-    const randomArray = randomNumberArray((2*(level)+3),1,391);
+    const randomArray = randomNumberArray((5*(level+1)),1,391);
     
     function handleScore(id){
         if(IDs.includes(id)){
@@ -28,8 +28,8 @@ export default function Body (){
         setLevel(Math.floor((score/10))%10);
     }
     return (
-    <body>
+    <>
        <ScoreBoard score={score} bestScore={bestScore} />
        <VillagerGrid villagerIDs = {randomArray} handleScore={handleScore} />
-    </body>)
+    </>)
 }

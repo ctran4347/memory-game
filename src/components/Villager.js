@@ -4,13 +4,13 @@ import loadingGIF from "../assets/animal-crossing-loading.gif";
 function Villager(props){
     const {id} = props;
     const [isLoading,ACNHData] =  ACNHcall(`https://acnhapi.com/v1/villagers/${id}`,id);
-    function handleClick(e){
-        e.preventDefault();
-        props.handleScore(ACNHData.id);
-    }
     const villagerStyle = {
         color: isLoading?'unset':ACNHData['text-color'],
         backgroundColor: isLoading?'unset':ACNHData['bubble-color'],
+    }
+    function handleClick(e){
+        e.preventDefault();
+        props.handleScore(ACNHData.id);
     }
 
     return(<>
