@@ -14,10 +14,13 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image:url('../animal-crossing-background.jpg');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color:#FAF3ED;
+  -webkit-background-size: 100% 750px;
+  -moz-background-size: 100% 750px;
+  -o-background-size: 100% 750px;
+  background-size: 100% 750px;
+  background-position:bottom;
+  background-repeat:no-repeat;
   user-select:none;
 }
 body{
