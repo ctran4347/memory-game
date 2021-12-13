@@ -1,6 +1,6 @@
 # Memory Game
 ---
->## Animal Crossing Inspired Memory Game.
+Animal Crossing Inspired Memory Game.
 
 
 ## How to Play
