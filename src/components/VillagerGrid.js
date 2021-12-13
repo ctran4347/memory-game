@@ -4,7 +4,7 @@ export default function VillagerGrid(props){
     return(
     <div class="villager-grid">
         {villagerIDs.map((id)=>{
-            return <Villager id={id}/>
+            return <Villager id={id} handleScore={props.handleScore}/>
         })}
     </div>)
 }

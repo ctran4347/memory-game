@@ -1,0 +1,63 @@
+.villager-grid{
+  display:flex;
+  width:auto;
+  margin:auto;
+  align-items:center;
+  justify-content: center;
+  flex-wrap:wrap;
+}
+.villager-grid .villager{
+  flex-basis:15%;
+  text-align:center;
+  margin:1% 2.5%;
+  background-color:#fdf8e3;
+  border-radius: 0 0 10px 10px;
+  align-self:stretch;
+  transition:transform 0.2s;
+  color:#74664B;
+}
+.villager-grid .villager:hover{
+  transform:scale(1.2);
+}
+.villager-grid .villager .villager-loading-image{
+  width:100%;
+}
+.villager-grid .villager .villager-loading-text::after{
+  content:'';
+  animation:loadingdots 2s linear infinite;
+}
+.villager-grid .villager .villager-name{
+  border: 1px solid transparent;
+  border-radius: 50px;
+  width: min-content;
+  padding: 5px 10px;
+  margin: auto;
+  justify-content: center;
+  white-space: nowrap;
+  transform: rotate(-10deg);
+  margin-top: -35px;
+  margin-left: -15px;
+}
+.villager-grid .villager .villager-image{
+  width:100%;
+  border: 1px solid transparent;
+  border-radius: 10px 10px 0 0;
+}
+.villager-grid .villager .villager-saying{
+  padding:0px 10px;
+}
+/* Animations */
+@keyframes loadingdots {
+  0%,20%{
+    content:'.'
+  }
+  40%{
+    content:'..'
+  }
+  60%{
+    content:'...'
+  }
+  80%,100%{
+    content:''
+  }
+}

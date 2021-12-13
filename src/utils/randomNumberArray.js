@@ -1,7 +1,10 @@
 export default function randomNumberArray(count,min,max){
     const output = [];
-    for(var i = 0; i < count; i++){
-        output.push(Math.floor(Math.random() * max ) + min);
+    while(output.length < count){
+        const randomNumber = Math.floor(Math.random() * max ) + min;
+        if(!output.includes(randomNumber)){
+            output.push(randomNumber);   
+        }
     }
     return output;
 }

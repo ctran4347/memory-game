@@ -1,0 +1,27 @@
+@font-face{
+  font-family:'FOT Bokutoh Pro';
+  src:url('../FOT-RodinBokutoh\ Pro\ EB.otf');
+}
+@font-face{
+  font-family:'FOT Seurat Pro';
+  src:url('../FOT-Seurat\ Pro\ EB.otf');
+}
+html {
+  margin: 0;
+  font-family:'FOT Seurat Pro';
+  font-weight:100;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image:url('../animal-crossing-background.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
