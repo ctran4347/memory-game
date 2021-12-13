@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/memory-game/static/css/main.95e16e98.chunk.css",
+    "main.js": "/memory-game/static/js/main.ac65cd8d.chunk.js",
+    "main.js.map": "/memory-game/static/js/main.ac65cd8d.chunk.js.map",
+    "runtime-main.js": "/memory-game/static/js/runtime-main.0a43fa20.js",
+    "runtime-main.js.map": "/memory-game/static/js/runtime-main.0a43fa20.js.map",
+    "static/js/2.4366b8c7.chunk.js": "/memory-game/static/js/2.4366b8c7.chunk.js",
+    "static/js/2.4366b8c7.chunk.js.map": "/memory-game/static/js/2.4366b8c7.chunk.js.map",
+    "static/js/3.1c579cab.chunk.js": "/memory-game/static/js/3.1c579cab.chunk.js",
+    "static/js/3.1c579cab.chunk.js.map": "/memory-game/static/js/3.1c579cab.chunk.js.map",
+    "index.html": "/memory-game/index.html",
+    "static/css/main.95e16e98.chunk.css.map": "/memory-game/static/css/main.95e16e98.chunk.css.map",
+    "static/js/2.4366b8c7.chunk.js.LICENSE.txt": "/memory-game/static/js/2.4366b8c7.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/memory-game/static/media/animal-crossing-background.c6bdf040.jpg",
+    "static/media/animal-crossing-loading.7404a483.gif": "/memory-game/static/media/animal-crossing-loading.7404a483.gif",
+    "static/media/App.css": "/memory-game/static/media/animal-crossing-logo.45abff73.png",
+    "static/media/github-icon.04ed74f3.svg": "/memory-game/static/media/github-icon.04ed74f3.svg",
+    "static/media/logo.6ce24c58.svg": "/memory-game/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a43fa20.js",
+    "static/js/2.4366b8c7.chunk.js",
+    "static/css/main.95e16e98.chunk.css",
+    "static/js/main.ac65cd8d.chunk.js"
+  ]
+}
