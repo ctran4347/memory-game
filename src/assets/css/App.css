@@ -112,3 +112,10 @@ footer .github-logo:hover{
     content:'..'
   }
 }
+
+/*Media Queries */
+@media only screen and (max-width: 768px) {
+  .villager-grid .villager{
+    flex-basis:45%;
+  }
+}
