@@ -114,7 +114,7 @@ footer .github-logo:hover{
 }
 
 /*Media Queries */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .villager-grid .villager{
     flex-basis:45%;
   }
